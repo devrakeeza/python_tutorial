@@ -24,3 +24,33 @@ Integer (int): Represents whole numbers, e.g., 5, -3, 42.
 Float (float): Represents decimal numbers, e.g., 3.14, -0.5, 1.0.
 String (str): Represents a sequence of characters, e.g., "Hello, World!", 'Python'.
 Boolean (bool): Represents true or false values, e.g., True, False.
+
+4. Variables
+
+Variables are used to store data in Python. You don't need to declare the data type of a variable explicitly. Python automatically detects the type based on the value you assign. Here's an example:
+
+```python
+name = "Alice"
+age = 30
+height = 5.6
+is_student = True
+```
+5. Arithmetic operations
+
+Python supports basic arithmetic operations, such as addition, subtraction, multiplication, division, and modulus. Here's an example:
+```python
+a = 10
+b = 3
+
+sum = a + b
+difference = a - b
+product = a * b
+quotient = a / b
+remainder = a % b
+
+print("Sum:", sum)
+print("Difference:", difference)
+print("Product:", product)
+print("Quotient:", quotient)
+print("Remainder:", remainder)
+```
